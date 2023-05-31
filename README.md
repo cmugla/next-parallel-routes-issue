@@ -17,6 +17,12 @@ Actual result:
 
 - the url rendered still says `/one/two/three`
 
+
+
+https://github.com/cmugla/next-parallel-routes-issue/assets/19141291/89d6ded3-bdda-4ec6-8c4a-1be1c1a6e5d3
+
+
+
 ## Summary
 
 The issue seems to happen when you have conditional route logic that depends on the `useParams` hook to render layouts server side based on whether a specific param exists. No matter where the `useParams` hook is called, the values are stale...
