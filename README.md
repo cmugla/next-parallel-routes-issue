@@ -1,6 +1,14 @@
 # Repro of useParams issue from Next.js version 13.4.3
 
-Repro steps:
+## Set up Locally
+
+After pulling down, can run
+
+```
+yarn && yarn dev
+```
+
+## Repro steps
 
 - go to url `localhost:3000/one`
 - click on the link to go to `/one/two`
