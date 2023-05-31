@@ -20,6 +20,7 @@ yarn && yarn dev
 Expected result:
 
 - the url rendered should say `/one/two` (like the url)
+- the link should say `Go to /one/two/three`
 
 Actual result:
 
