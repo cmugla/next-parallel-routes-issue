@@ -1,0 +1,46 @@
+# global
+.DS_Store
+*.log
+*.env
+node_modules
+coverage
+tmp
+report.*.json
+
+# editor config
+.atomignore
+.idea
+.vscode/*
+!.vscode/extensions.json
+*.code-workspace
+
+# build artifacts
+build
+dist
+storybook-static
+.next
+.vercel
+.lighthouseci/*.html
+.lighthouseci/*.json
+process.yml
+.turbo-cookie
+
+# typescript
+*.tsbuildinfo
+
+# eslint
+.eslintcache
+
+# package management
+npm-debug.log
+yarn-error.log
+
+# yalc
+yalc.lock
+.yalc
+
+# local SSL certs
+certs
+
+# env
+.env
